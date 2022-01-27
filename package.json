@@ -1,0 +1,27 @@
+{
+  "name": "4c-twitter-bot",
+  "version": "1.0.0",
+  "description": "Twitter Bot for 4C",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthShyniben/4c-twitter-bot.git"
+  },
+  "keywords": [
+    "4c",
+    "twitter"
+  ],
+  "author": "SiddharthShyniben <siddharth.muscat@gmail.com> (https://github.com/SiddharthShyniben)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiddharthShyniben/4c-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/SiddharthShyniben/4c-twitter-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  }
+}
