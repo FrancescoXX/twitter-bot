@@ -1,7 +1,7 @@
 # 4c-twitter-bot
 4C twitter bot
 
-Add environment variables in the docker-compose file:
+Add environment variables in the .env file:
 ```
       - CONSUMER_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       - CONSUMER_SECRET=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -10,6 +10,10 @@ Add environment variables in the docker-compose file:
 ```
 
 run the app with docker
+
+`
+docker compose up --build
+`
 
 ```
 docker-compose up --build
