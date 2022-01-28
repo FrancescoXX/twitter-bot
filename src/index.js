@@ -1,4 +1,5 @@
 const twit = require("twit");
+require('dotenv').config();
 
 const T = new twit({
 	consumer_key: process.env.CONSUMER_KEY,
@@ -6,6 +7,8 @@ const T = new twit({
   access_token: process.env.ACCESS_TOKEN,
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
+
+console.log(process.env);
 
 function retweet(search) {
   T.get(
@@ -46,4 +49,4 @@ function retweet(search) {
   );
 }
 
-setInterval(() => retweet("#4CCommunity OR #4ccommunity"), 10000);
+setInterval(() => retweet("#portainer2"), 10000);
