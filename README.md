@@ -18,3 +18,9 @@ docker compose up --build
 ```
 docker-compose up --build
 ```
+
+run prettier
+
+```
+npm run pretty
+```

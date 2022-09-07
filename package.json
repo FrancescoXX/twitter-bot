@@ -4,7 +4,8 @@
   "description": "Twitter Bot for 4C",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "pretty": "prettier --write \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
